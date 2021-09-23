@@ -6,3 +6,5 @@ const student2 = student;
 console.log(student2);
 student2.name = "John";
 console.log(student2)
+
+// Array

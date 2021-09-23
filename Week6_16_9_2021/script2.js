@@ -27,3 +27,10 @@ console.log(color[0][1]); //red
 //เป็นการแบ่งตัวหนังสือที่ละตัวเป็น index ของค่า
 let letters = [...'Hello world'];
 console.log(letters)
+
+// เป็นการสร้างพื้นที่ใน Array และสร้างค่าใน Array
+let arr5 = new Array(10) // แบบนี้เป็นสร้างพื้นที่ให้ Array
+let arr6 = new Array("Good" , true , "news" , true)
+
+console.log(arr5);
+console.log(arr6);
