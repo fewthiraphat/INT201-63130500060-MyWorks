@@ -21,3 +21,10 @@ const getTeacherName2 = (name, age, ...student) =>{
 const getAreaOfCircle2 = (r) => {
     return 3.14 * r * r;
 }
+
+// ฟังก์ชั่นใน scope ที่ nested ไว้
+const reportScore = (midterm , final) => {
+    return (midterm + final)   
+}
+
+// closures
